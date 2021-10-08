@@ -1,0 +1,84 @@
+/* Tablet layout */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .inner_top_header {
+        padding-top: 10px;
+    }
+
+    .social_area {
+        max-width: 460px;
+        padding-top: 14px;
+    }
+
+    .inner_menu {
+        background: none;
+        min-height: auto;
+    }
+
+    .inner_menu::after {
+        display: none;
+    }
+
+    .mean-container .mean-nav {
+        width: 80%;
+    }
+
+    #slider_area {
+        margin-top: 0px;
+    }
+
+    .inner_hero h2 {
+        font-size: 50px;
+    }
+
+    .body {
+        height: 5px;
+    }
+}
+
+/* Mobile layout */
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .mini_menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mini_menu ul,
+    .social_area ul {
+        text-align: center;
+    }
+
+    .social_area ul li a i {
+        margin: 5px;
+    }
+
+    .search_area,
+    .logo_area {
+        float: none;
+        width: 250px;
+        margin: auto;
+    }
+
+    .logo_area {
+        padding-left: 40px;
+        margin-bottom: -15px;
+    }
+
+    .inner_hero h2 {
+        font-size: 25px;
+    }
+
+    .inner_header {
+        padding: 10px 0;
+    }
+
+    #work-area,
+    #footer_area {
+        padding: 20px 0;
+    }
+
+    .child_work,
+    .child_footer {
+        width: 98%;
+    }
+
+}
