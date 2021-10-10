@@ -442,7 +442,7 @@ inner_work Area CSS
     padding: 0px 0px 0px 65px;
 }
 
-.child_testimonial span img {
+.child_testimonial .tag img {
     float: left;
 }
 
